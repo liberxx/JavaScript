@@ -1,0 +1,23 @@
+
+function sort() {
+	/*var a = document.getElementById('tablica');
+	/*document.write(a[0]);*/
+	/*alert(a);*/
+	/*console.log(a);
+	var children = a.childNodes;
+
+	for(child in children){
+		
+	
+    console.log(children[child]);
+	}*/
+	
+	var table_rows = document.getElementsByTagName("tr")
+	
+	console.log(table_rows)
+	
+	table_rows.forEach(function compare(row){
+		var tds=row.childNodes
+		
+		)
+}

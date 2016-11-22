@@ -1,0 +1,17 @@
+#tablica {
+  border-collapse: collapse; /*убираем пустые промежутки между ячейками*/
+  border: 1px solid grey; /*устанавливаем для таблицы внешнюю границу серого цвета толщиной 1px*/
+}
+
+th {
+  color: black;
+  padding: 7px 17px;
+  border: 1px solid grey;
+  cursor: pointer;
+}
+
+td {
+  color: #669;
+  padding: 7px 17px;
+  border: 1px solid grey
+}
