@@ -6,12 +6,12 @@ body {
     overflow: hidden;
 	}
 
-#h1 {
+h1 {
 	color: black;
 	text-align: center;
 }
 
-#container {
+.container {
 	position: absolute;
 	left: 27%;
 	background-image: url(sky.jpg);
@@ -24,7 +24,7 @@ body {
 	overflow: hidden;
 }
 
-#ball	{
+.ball	{
 	position: absolute;
 	height: 140px;
 	width: 100px;
@@ -32,14 +32,14 @@ body {
 	left: 150px;
 }
 
-#ball2	{
+.ball2	{
 	position: absolute;
 	height: 140px;
 	width: 100px;
 	top: 500px;
 	left: 350px;
 }
-#ball3	{
+.ball3	{
 	position: absolute;
 	height: 140px;
 	width: 100px;
@@ -47,13 +47,13 @@ body {
 	left: 550px;
 }
 
-#ballons {
+.ballons {
     width: 85%;
     height: 85%;
 }
 
 
-#scoreboard	{
+.scoreboard	{
 	top: 660px;
 	position: relative;
 	text-align: center;
@@ -69,7 +69,7 @@ body {
 }
 
 
-#scroll_container {
+.scroll_container {
 	width: 100%;
     height: 100%;
     position: fixed;
@@ -81,12 +81,12 @@ body {
     overflow: auto;   
 }
 
-#scroll {
+.scroll {
       display: block;
       border: none;
 }
 
-#result_text_container {
+.result_text_container {
 	width: 100%;
     height: 100%;
     position: fixed;
@@ -98,7 +98,7 @@ body {
     overflow: auto;   
 }
 
-#scroll_text {
+.scroll_text {
       display: block;
       border: none;
 }
