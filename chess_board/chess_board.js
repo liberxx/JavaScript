@@ -14,20 +14,21 @@ while (i <= v_lines) {
   	else {
   		var n = 1;
   	}
-		while (n <= h_lines) {
-  			if (n % 2 !=0) {
-    			chess_board += " ";
-    		}
-    		else {
-    			chess_board += "#";
-    		}
 
-    		if (n == h_lines) {
-    			chess_board += "\n";
-    		}
-    		
-  			n++;
-  		}
-  i++;
+	while (n <= h_lines) {
+  		if (n % 2 !=0) {
+    		chess_board += " ";
+    	}
+    	else {
+    		chess_board += "#";
+    	}
+
+    	if (n == h_lines) {
+    		chess_board += "\n";
+    	}
+
+  		n++;
+  	}
+    i++;
 }
 console.log(chess_board);
