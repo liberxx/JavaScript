@@ -9,23 +9,25 @@ var chess_board = "";
 var i = 1;
 while (i <= v_lines) {
 	if (i % 2 == 0) {
-  	var n = 2;
-  }
-  else {
-  	var n = 1;
-  }
-	while (n <= h_lines) {
-  	if (n % 2 !=0) {
-    	chess_board += " ";
-    }
-    else {
-    	chess_board += "#";
-    }
-    if (n == h_lines) {
-    	chess_board += "\n";
-    }
-  	n++;
-  }
+  		var n = 2;
+  	}
+  	else {
+  		var n = 1;
+  	}
+		while (n <= h_lines) {
+  			if (n % 2 !=0) {
+    			chess_board += " ";
+    		}
+    		else {
+    			chess_board += "#";
+    		}
+
+    		if (n == h_lines) {
+    			chess_board += "\n";
+    		}
+    		
+  			n++;
+  		}
   i++;
 }
 console.log(chess_board);
